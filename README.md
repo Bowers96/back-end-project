@@ -4,3 +4,15 @@ This app is along the lines of an event planner. You can sign up and log in and 
 [Link to GH Pages deployment](https://Bowers96.github.io/front-end-project2)
 [Front-end Repository](https://github.com/Bowers96/front-end-project2)
 [Heroku Database](https://cryptic-hollows-32556.herokuapp.com/posts)
+
+## Api Endpoints
+Verb	URI Pattern	Controller#Action
+
+GET	/posts	posts#index
+POST	/posts	posts#create
+PATCH	/posts/id	posts#update
+DELETE	/posts/id	posts#destroy
+POST	/sign-up	users#sign-up
+POST	/sign-in	users#sign-in
+PATCH	/change-password/id	users#change-password
+DELETE	/sign-out/id	users#sign-out
